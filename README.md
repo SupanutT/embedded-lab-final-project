@@ -1,5 +1,15 @@
 ## About The Project
 
+### System Architecture
+<p align="center">
+ <img src="https://cdn.discordapp.com/attachments/1020618076858875985/1109552235035242667/embedded-lab-project-architecture-design.png" alt="Dashboard page" width="545" height="345">
+</p>
+
+### Microcontroller Architecture
+<p align="center">
+ <img src="https://media.discordapp.net/attachments/1020618076858875985/1109552671905554432/image.png" alt="Dashboard page" width="545" height="345">
+</p>
+
 ### Dashboard Page
 <p align="center">
  <img src="https://media.discordapp.net/attachments/1020618076858875985/1109543879448989838/dashboard.png" alt="Dashboard page" width="545" height="345">
