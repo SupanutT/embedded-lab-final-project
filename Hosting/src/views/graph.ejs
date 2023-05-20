@@ -1,0 +1,86 @@
+<% layout('layouts/boilerplate') %>
+<div class="container text-center">
+    <div class="row mb-3">
+        <h1>Graph</h1>
+    </div>
+    <div class="row mb-3 justify-content-end">
+        <div class="col-md-3">
+            <div class="form-check">
+                <input class="form-check-input shadow-none" type="checkbox" value="" id="humidity-check-box" checked>
+                <label class="form-check-label" for="flexCheckDefault">
+                    Humidity
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input shadow-none" type="checkbox" value="" id="temp-check-box" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Temperature
+                </label>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <input type="range" class="form-range shadow-none" min="5" max="30" id="range-input">
+            <label for="range-input" class="form-label">Number of data: <span id="number-of-data">18</span></label>
+        </div>
+        <div class="col-md-3">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                <label class="btn btn-outline-dark" for="btnradio1">Past 7 days</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
+                <label class="btn btn-outline-dark" for="btnradio2">Past 24 hours</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-dark" for="btnradio3">Past 10 minutes</label>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+
+    </div>
+    <div>
+        <canvas id="line-chart" width="700" height="300"></canvas>
+    </div>
+</div>
+
+<style>
+    .form-range::-webkit-slider-thumb {
+        background: #212529;
+    }
+
+    .form-range::-moz-range-thumb {
+        background: #212529;
+    }
+
+    .form-range::-ms-thumb {
+        background: #212529;
+    }
+
+    .form-range:focus::-webkit-slider-thumb {
+        box-shadow: none !important;
+        background: #212529;
+    }
+
+    .form-range:focus::-moz-range-thumb {
+        box-shadow: none !important;
+        background: #212529;
+    }
+
+    .form-range:focus::-ms-thumb {
+        box-shadow: none !important;
+        background: #212529;
+    }
+
+    .form-check-input:checked {
+        background-color: #212529;
+        border-color: #212529;
+        box-shadow: none;
+    }
+
+    .form-check-input:not(:checked) {
+        border-color: #212529;
+        box-shadow: none;
+    }
+</style>
+
+<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script type="module" src="./script/chart.js"></script>

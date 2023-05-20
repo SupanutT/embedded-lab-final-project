@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "nodemcu-f263e"
+  }
+}
