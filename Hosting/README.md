@@ -1,15 +1,5 @@
 ## About The Project
 
-### Dashboard Page
-<p align="center">
- <img src="https://media.discordapp.net/attachments/1020618076858875985/1109543879448989838/dashboard.png" alt="Dashboard page" width="545" height="345">
-</p>
-
-### Graph Page
-<p align="center">
- <img src="https://media.discordapp.net/attachments/1020618076858875985/1109543879792930816/graph.png" alt="Dashboard page" width="545" height="345">
-</p>
-
 ### Build With
 * ![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 * ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
