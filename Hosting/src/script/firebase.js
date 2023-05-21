@@ -1,5 +1,7 @@
 const firebaseConfig = {
-    /* your firebaseConfig */
+    /* your firebase config */
 };
 
-export { firebaseConfig }
+export {
+ firebaseConfig
+}
