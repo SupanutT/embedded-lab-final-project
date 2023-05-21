@@ -2,12 +2,12 @@
 
 ### System Architecture
 <p align="center">
- <img src="https://cdn.discordapp.com/attachments/1020618076858875985/1109552235035242667/embedded-lab-project-architecture-design.png" alt="Dashboard page" width="545" height="345">
+ <img src="https://media.discordapp.net/attachments/1020618076858875985/1109749235194265651/embedded-lab-project-architecture.drawio.png" width="545" height="345">
 </p>
 
 ### Microcontroller Architecture
 <p align="center">
- <img src="https://media.discordapp.net/attachments/1020618076858875985/1109552671905554432/image.png" alt="Dashboard page" width="545" height="345">
+ <img src="https://media.discordapp.net/attachments/1020618076858875985/1109552671905554432/image.png" alt="Microcontroller" width="545" height="345">
 </p>
 
 ### Dashboard Page
@@ -17,7 +17,12 @@
 
 ### Graph Page
 <p align="center">
- <img src="https://media.discordapp.net/attachments/1020618076858875985/1109543879792930816/graph.png" alt="Dashboard page" width="545" height="345">
+ <img src="https://media.discordapp.net/attachments/1020618076858875985/1109543879792930816/graph.png" alt="Graph page" width="545" height="345">
+</p>
+
+### Line Chat Bot
+<p align="center">
+ <img src="https://media.discordapp.net/attachments/1020618076858875985/1109754108157636638/line1.jpg?width=480&height=1038" alt="line bot 1" width="240" height="519"> <img src="https://media.discordapp.net/attachments/1020618076858875985/1109753491607539883/line2.jpg" alt="line bot 2" width="240" height="519">
 </p>
    
 ### Contributors
